@@ -3,159 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gowtham T | Academic Website</title>
-  <style>
-    body {
-      font-family: Cambria, serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #002147;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-    }
-    nav {
-      margin-top: 10px;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #002147;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-    }
-    ul {
-      list-style: square;
-      padding-left: 20px;
-    }
-    .btn {
-      display: inline-block;
-      background: #002147;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .btn:hover {
-      background: #0055aa;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #002147;
-      color: #fff;
-      margin-top: 30px;
-    }
-  </style>
+  <title>Gowtham T | Academic Homepage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-    <h1>Dr. Gowtham T</h1>
-    <p>Doctoral Researcher in Mathematics | Systems & Control Theory</p>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#cv">CV</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
+      <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic">
+      <h1>Dr. Gowtham T</h1>
+      <h2>Doctoral Researcher in Mathematics</h2>
+      <p>Specializing in Systems and Control Theory at VIT Chennai</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="home">
-    <h2>Welcome</h2>
-    <p>Welcome to my academic website. I am a Doctoral Researcher at VIT Chennai specializing in Systems and Control Theory. 
-       My research interests include fuzzy systems, stability analysis, and event-triggered control.</p>
-  </section>
-
-  <section id="about">
+  <!-- About -->
+  <section id="about" class="container">
     <h2>About Me</h2>
-    <p>I am pursuing my Ph.D. in Mathematics at the Division of Mathematics, School of Advanced Sciences, VIT Chennai. 
-       My research is focused on the analysis of systems and control theory, with applications in intelligent systems.</p>
+    <p>I am a doctoral researcher in the Division of Mathematics, School of Advanced Sciences at Vellore Institute of Technology (VIT), Chennai. 
+    My Ph.D. research focuses on <b>Systems and Control Theory</b>. I have worked on mathematical modeling, control design, and event-triggered systems. 
+    I am also actively engaged in projects funded by TNSCST, exploring school students' perception towards mathematics.</p>
   </section>
 
-  <section id="research">
-    <h2>Research</h2>
+  <!-- Research -->
+  <section id="research" class="container">
+    <h2>Research Interests</h2>
     <ul>
-      <li>Takagi-Sugeno (T-S) fuzzy systems</li>
-      <li>Event-triggered and sampled-data control</li>
-      <li>Stability and synchronization of complex systems</li>
-      <li>Applications in power systems and energy storage</li>
+      <li>Systems and Control Theory</li>
+      <li>Takagi–Sugeno (T-S) Fuzzy Systems</li>
+      <li>Load Frequency Control in Power Systems</li>
+      <li>Event-triggered Control & Synchronization</li>
+      <li>Mathematical Modeling & Stability Analysis</li>
     </ul>
   </section>
 
-  <section id="publications">
+  <!-- Publications -->
+  <section id="publications" class="container">
     <h2>Publications</h2>
     <ul>
-      <li>
-        <b>Comprehensive Review of Sampled Memory-Event-Triggered Fuzzy Load Frequency Control</b>  
-        <i>IEEE Transactions on Cybernetics</i>, 2023.  
-        [<a href="https://doi.org/xxxx" target="_blank">DOI</a>]
-      </li>
-      <li>
-        <b>Event-Triggered Adaptive Tracking Control of Hybrid Energy Storage Systems</b>  
-        <i>IEEE Transactions on Transportation Electrification</i>, 2023.  
-        [<a href="https://doi.org/xxxx" target="_blank">DOI</a>]
-      </li>
+      <li><b>Comprehensive Review of Sampled Memory-Event-Triggered Fuzzy Load Frequency Control</b>, IEEE Transactions on Cybernetics, 2023.</li>
+      <li><b>Event-Triggered Adaptive Tracking Control of Hybrid Energy Storage Systems</b>, IEEE Transactions on Transportation Electrification, 2023.</li>
+      <li>Resilient H∞ Synchronization of Piecewise-Homogeneous Markovian Jumping NNs – Journal of the Franklin Institute (Under Review).</li>
     </ul>
-    <p>For a complete and updated list, visit my 
-       <a href="https://scholar.google.com/citations?user=XXXX" target="_blank">Google Scholar Profile</a>.
-    </p>
   </section>
 
-  <section id="teaching">
-    <h2>Teaching</h2>
+  <!-- Teaching -->
+  <section id="teaching" class="container">
+    <h2>Teaching & Talks</h2>
     <ul>
-      <li>Mathematical Foundations for Computer Sciences (M.Tech)</li>
-      <li>Linear Algebra and Differential Equations (Undergraduate)</li>
-      <li>Control Theory Tutorials</li>
+      <li>Presented research on T-S Fuzzy Systems (Conference, 2025)</li>
+      <li>Assisted teaching in <b>Mathematical Foundations for Computer Sciences</b> (M.Tech course)</li>
     </ul>
   </section>
 
-  <section id="cv">
-    <h2>Curriculum Vitae</h2>
-    <p>
-      <a href="assets/GowthamT_CV.pdf" target="_blank" class="btn">📄 Download My CV (PDF)</a>
-    </p>
-    <h3>Summary</h3>
-    <ul>
-      <li>Doctoral Researcher, VIT Chennai</li>
-      <li>Recipient of TNSCST Student Project Scheme Grant</li>
-      <li>Publications in IEEE Transactions</li>
-      <li>Experienced in teaching and mentoring</li>
-    </ul>
-  </section>
-
-  <section id="contact">
+  <!-- Contact -->
+  <section id="contact" class="container">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:gowthamsrivarthini@gmail.com">gowthamsrivarthini@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/gowthamt-math" target="_blank">linkedin.com/in/gowthamt-math</a></p>
-    <p>Google Scholar: <a href="https://scholar.google.com/citations?user=XXXX" target="_blank">Scholar Profile</a></p>
+    <p>Google Scholar: <a href="#" target="_blank">[Add Link]</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Gowtham T | Academic Website</p>
   </footer>
